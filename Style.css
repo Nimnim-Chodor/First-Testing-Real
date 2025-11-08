@@ -1,0 +1,37 @@
+body{
+    color: blue;
+    background-color: red;
+}
+
+#pwet{
+    margin: 20px;
+    text-align: center;
+    size-adjust: 20px;
+    background-color: aqua;
+    font-size: 40px;
+    color: rgb(81, 118, 6);
+}
+
+#link{
+    box-sizing: content-box;
+    padding: 10px;
+    background-color: white;
+}
+
+#background{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 1000px;
+    margin-top: 20px;
+}
+
+#DVD{
+    position: absolute;
+    color: black;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+}
