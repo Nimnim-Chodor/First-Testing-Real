@@ -1,0 +1,103 @@
+body{
+    background-image: url("stampcardbackground3.png");
+    background-size: cover;
+}
+
+#pwet{
+    width: 150px;
+    height: 40px;
+    align-content: center;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+button{
+    padding: 2mm;
+    background-color: rgb(155, 155, 155);
+    border: 20mm rgb(181, 181, 181);
+    font-size: 8mm;
+    position: relative;
+    margin: 10px;
+    top: 20px;
+}
+
+#a4{
+    position: absolute;
+    top: 30mm;;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height:297mm;
+    width: 210mm;
+    background-color: red;
+    margin-bottom: 40px;
+    border-radius: 1.5mm;
+    overflow: hidden;
+}
+
+#Wala{
+    position: relative;
+    top: 350mm;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 31mm;
+    color: #fff;
+    text-shadow: 
+        7px 7px 5px #000;
+    position: relative;
+    left: 20mm;
+}
+
+#decrease{
+    position: relative;
+    left: 60mm;
+    top: 12.5mm;
+    height: 20mm;
+    width: 20mm;
+    font-size: 17mm;
+}
+
+#count{
+    position: relative;
+    top: -10mm;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 20mm;
+    width: 30mm;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 17mm;
+}
+
+#increase{
+    position: relative;
+    left: 124mm;
+    top: -32.5mm;
+    height: 20mm;
+    width: 20mm;
+    font-size: 17mm
+}
+
+#stamps{
+    position: relative;
+    top: -25mm;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 180mm;
+    width: 170mm;
+    background-color: black;
+}
+
+#badge{
+    height: 20mm;
+    width: 20mm;
+    margin-left: 1.075mm;
+    margin-top: 1.075mm;
+}
